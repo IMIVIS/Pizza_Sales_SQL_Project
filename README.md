@@ -50,6 +50,7 @@
   <li>✔ QuickDBD – For structured database modeling and visualization</li>
   <li>✔ Navicat – For database setup in SQL from CSV files</li>
   <li>✔ Real-world approach – Designed with business analysis in mind</li>
+  <li>✔ <a href="https://youtu.be/zZpMvAedh_E" target="_blank">SQL Tutorial</a> – This tutorial helped refine my SQL skills by walking through practical examples and advanced queries, enabling me to apply best practices in database design and analytics.</li>
 </ul>
 
 <hr>
