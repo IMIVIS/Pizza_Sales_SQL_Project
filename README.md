@@ -1,57 +1,72 @@
-# Pizza_Sales_SQL_Project
+🍕 Pizza Sales Analysis SQL Project
 
-📦 Pizza Sales Analysis SQL Project
+“Turning data into delicious insights!”
 
-This project is a comprehensive SQL-based analysis of a pizza sales database. The objective is to design, implement, and query a relational database schema that simulates real-world pizza ordering patterns. The project demonstrates database design, query optimization, and data aggregation using SQL, covering basic to advanced analytical use cases.
+A deep dive into pizza sales using SQL, where data modeling meets real-world business analytics. This project simulates a pizza ordering system and walks through queries that answer practical, data-driven questions — from basic summaries to advanced revenue breakdowns.
 
-✅ Schema Overview
+📂 Database Schema at a Glance
 
-The database consists of the following tables:
+A structured, relational database designed to reflect how pizza orders are placed and tracked:
 
-orders – Records customer orders with timestamps.
+✅ orders – Tracks each order’s date and time
+✅ order_details – Details pizza selections and quantities per order
+✅ pizzas – Contains pizza attributes like size and price
+✅ pizza_types – Holds pizza categories, names, and ingredients
 
-order_details – Contains details of each order, including pizza type and quantity.
+The schema ensures data integrity using primary and foreign keys while mimicking real business workflows.
 
-pizzas – Stores pizza-specific information like size and price.
+🎯 Project Highlights
+🔰 Basic Queries
 
-pizza_types – Defines different pizza types, their categories, and ingredients.
+✅ Total number of orders placed
 
-Relationships between tables are built using primary and foreign keys to ensure data integrity and reflect real-world interactions.
+✅ Total revenue generated from pizza sales
 
-📊 Key Objectives & Queries
+✅ Highest-priced pizza
 
-The project includes queries categorized by complexity:
+✅ Most common pizza size
 
-Basic Analysis: Total orders, revenue calculation, highest-priced pizza, common sizes, and top pizza types.
+✅ Top 5 most ordered pizza types
 
-Intermediate Analysis: Category-wise ordering trends, hourly distribution, date-wise averages, and revenue rankings.
+🚀 Intermediate Queries
 
-Advanced Analysis: Revenue contribution percentages, cumulative trends over time, and category-based top pizza rankings.
+🔥 Total quantity by pizza category
 
-📂 Tools Used
+🔥 Order distribution by hour of the day
 
-SQL (DDL and DML queries)
+🔥 Category-wise pizza distribution
 
-Database modeling via QuickDBD
+🔥 Average pizzas ordered per day
 
-Analytical queries showcasing aggregation, joins, and time-based analysis.
+🔥 Top 3 pizza types by revenue
 
-🚀 What You’ll Learn
+🌟 Advanced Queries
 
-Designing normalized relational databases
+📊 Percentage contribution of each pizza type to total revenue
 
-Writing efficient SQL queries to extract insights
+📊 Cumulative revenue trends over time
 
-Handling joins, aggregations, and time-series data
+📊 Top 3 pizzas by revenue within each category
 
-Real-world data modeling for a sales environment
+💻 Tools & Techniques
 
-📈 Potential Use Cases
+✔ SQL – Schema creation, complex joins, aggregations, and time-based queries
+✔ QuickDBD – For structured database modeling and visualization
+✔ Real-world approach – Designed with business analysis in mind
+✔ Navicat - For database setup in SQL from CSV
 
-Sales reporting dashboards
+🎯 Why This Project?
 
-Revenue forecasting models
+✔ Build robust database designs
+✔ Craft insightful queries for business decisions
+✔ Practice data aggregation, filtering, and reporting
+✔ Explore customer behavior and sales trends
+✔ Showcase data-driven problem-solving skills
 
-Customer preference analysis
+🚀 Use Cases
 
-Inventory and pricing strategies
+📊 Sales dashboards | 📈 Revenue forecasting | 📦 Inventory planning | 📋 Customer insights
+
+👀 Take a Look!
+
+This project is perfect for anyone looking to strengthen SQL skills with practical scenarios — whether you're prepping for interviews, enhancing your portfolio, or just hungry for data!
